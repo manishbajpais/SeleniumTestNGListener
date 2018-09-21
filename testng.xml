@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FailedTestScreenshots" verbose="1">
+<listeners>
+        <listener class-name="seleniumtestNGlistener.MyTransformer"/>
+  </listeners>
+<test name="FailedScreenshotTestCases">
+<classes>
+<class name="seleniumTestCase.LoginTest"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FailedTestScreenshots]">
+  <listeners>
+    <listener class-name="seleniumtestNGlistener.MyTransformer"/>
+  </listeners>
+  <test name="FailedScreenshotTestCases(failed)">
+    <classes>
+      <class name="seleniumTestCase.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+          <include name="teatDown"/>
+        </methods>
+      </class> <!-- seleniumTestCase.LoginTest -->
+    </classes>
+  </test> <!-- FailedScreenshotTestCases(failed) -->
+</suite> <!-- Failed suite [FailedTestScreenshots] -->
